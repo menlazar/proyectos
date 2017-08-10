@@ -2,7 +2,7 @@ body{
     background: rgba(26, 24, 25, 0.76);
 }
 /*div{
-    border: 2px solid red;
+    border: 1px solid red;
 }*/
 .textoizquierdo{
     font-family: 'open sans', sans-serif;
@@ -30,19 +30,22 @@ div.hours{
 }
 .hours p.hours{
     text-align: left;
-    margin-left: 20px;
+    margin-left: 50px;
     position: absolute;
+    margin-top: 0;
+    letter-spacing: 2px;
 }
 .hours p.left{
-    margin-left: 20px;
+    margin-left: 50px;
     position: absolute;
-    margin-top: 35px;
+    margin-top: 20px;
     font-weight: lighter;
+    letter-spacing: 1px;
 }
 .hours p.cero{
     position: absolute;
-    margin-top: 5px;
-    margin-left: 100px;
+    margin-top: -10px;
+    margin-left: 125px;
 }
 div.minutes{
     font-family:sans-serif;
@@ -50,50 +53,55 @@ div.minutes{
     margin-left: 750px;
     position: absolute;
     border-left: 2px solid gray;
-    height: 100px;
+    height: 60px;
     margin-top: 250px;
 }
-.minutes p.remaining{
-    margin-left: 20px;
-    position: absolute;
-    margin-top: 35px;
-    font-weight: lighter;
-}
 .minutes p.minutes{
-    margin-left: 20px;
+    margin-left: 30px;
     position: absolute;
+    margin-top: 0;
+    letter-spacing: 2px;
+}
+.minutes p.remaining{
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 20px;
+    font-weight: lighter;
+    letter-spacing: 1px;
 }
 .minutes .cero{
     position: absolute;
     text-align: center;
-    margin-left: 110px;
-    margin-top: 5px;
+    margin-left: 125px;
+    margin-top: -10px;
 }
 div.seconds{
     font-family:sans-serif;
     width:300px;
     margin-left: 950px;
     position: absolute;
-    height: 100px;
+    height: 62px;
     margin-top: 250px;
     border-left: 2px solid gray;
 }
 .seconds p.seconds{
     position: absolute;
     font-size: 20px;
-    margin-left: 20px;
-    margin-top: 15px;
+    margin-left: 30px;
+    margin-top: 0;
+    letter-spacing: 2px;
 }
 .seconds p.counting{
-    margin-left: 20px;
+    margin-left: 30px;
     position: absolute;
-    margin-top: 40px;
+    margin-top: 22px;
     font-weight: lighter;
+    letter-spacing: 1px;
 }
 .seconds p.cero{
     position: absolute;
-    margin-top: 10px;
-    margin-left: 110px;
+    margin-top: -10px;
+    margin-left: 130px;
 }
 .boton{
     font-family:sans-serif;
@@ -176,7 +184,7 @@ div.made{
 div.copyytexto{
     position: absolute;
     width: 525px;
-    margin-left: 800px;
+    margin-left: 785px;
     margin-top: 25px;
 }
 div.copyright{
