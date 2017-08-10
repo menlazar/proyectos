@@ -1,0 +1,194 @@
+body{
+    background: rgba(26, 24, 25, 0.76);
+}
+/*div{
+    border: 2px solid red;
+}*/
+.textoizquierdo{
+    font-family: sans-serif;
+    text-align: left;
+    padding: 150px 0 0 50px;
+    width: 250px;
+    position: absolute;
+}
+.cero{
+    font-size: 100px;
+}
+div.hours{
+    font-family:sans-serif;
+    width: 300px;
+    margin-left: 350px;
+    position: absolute;
+    border-left: 2px solid gray;
+    height: 250px;
+    margin-top: 150px;
+}
+.hours p.hours{
+    text-align: left;
+    margin-left: 20px;
+    position: absolute;
+}
+.hours p.left{
+    margin-left: 20px;
+    position: absolute;
+    padding-top: 20px;
+}
+.hours p.cero{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 100px;
+}
+div.minutes{
+    font-family:sans-serif;
+    width: 300px;
+    margin-left: 675px;
+    position: absolute;
+    border-left: 2px solid gray;
+    border-right: 3px solid gray;
+    height: 100px;
+    margin-top: 150px;
+}
+.minutes p.remaining{
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 35px;
+}
+.minutes p.minutes{
+    margin-left: 20px;
+    position: absolute;
+}
+.minutes .cero{
+    position: absolute;
+    text-align: center;
+    margin-left: 110px;
+    margin-top: -15px;
+}
+div.seconds{
+    font-family:sans-serif;
+    width:300px;
+    margin-left: 1000px;
+    position: absolute;
+    height: 100px;
+    margin-top: 150px;
+}
+.seconds p.seconds{
+    position: absolute;
+    font-size:20px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.seconds p.counting{
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 40px;
+}
+.seconds p.cero{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 100px;
+}
+.befirst{
+    text-align: right;
+    width: 100%;
+    height: 40px;
+}
+.befirst p{
+    position: absolute;
+    padding-top: 350px;
+}
+
+/*Footer*/
+
+footer{
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    margin-top: 660px
+}
+figure.logo{
+    position: absolute;
+    padding-top: 20px;
+}
+div.contenedor{
+    color: white;
+}
+.boton{
+    font-family:sans-serif;
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: 350px;
+    width: 110px;
+    height: 50px;
+    border: 2px solid white;
+    -webkit-transition-duration: 0.5s;
+    text-align: center;
+    border-radius: 5px;
+}
+.boton:hover{
+    background: white;
+    color: black;
+}
+.befirst{
+    opacity: 0.7;
+}
+p.befirst{
+    font-family:sans-serif;
+    position: absolute;
+    margin-left: 1018px;
+    font-size: 14px;
+    text-align: center;
+    width: 300px;
+}
+div.enlaces{
+    font-family:sans-serif;
+    margin-left: 38px;
+    margin-top: 60px;
+    position: absolute;
+}
+div.home{
+    width: 45px;
+    border-right: 2px solid lightgray;
+}
+div.theme{
+    border-right: 2px solid lightgray;
+    width: 101px;
+    margin-left: 60px;
+    margin-top: -17px;
+
+}
+div.support{
+    border-right: 2px solid lightgray;
+    width: 48px;
+    margin-left: 170px;
+    margin-top: -18px;
+}
+div.made{
+    width: 100px;
+    margin-left: 230px;
+    margin-top: -18px;
+}
+div.copyright{
+    font-family:sans-serif;
+    color: darkgray;
+    margin-right: 20px;
+    text-align: right;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.right{
+    font-family:sans-serif;
+    text-align: right;
+    font-size: 12px;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+.right span{
+    color: darkgray;
+}
+a{
+    text-decoration: none;
+    outline: none;
+    font-size: 11px;
+    color: gray;
+}
