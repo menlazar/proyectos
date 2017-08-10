@@ -5,23 +5,28 @@ body{
     border: 2px solid red;
 }*/
 .textoizquierdo{
-    font-family: sans-serif;
+    font-family: 'open sans', sans-serif;
     text-align: left;
-    padding: 150px 0 0 50px;
-    width: 250px;
+    width: 350px;
+    margin-top: 210px;
+    margin-left: 185px;
     position: absolute;
 }
+.textoizquierdo p{
+    font-weight: lighter;
+    font-size: 40px;
+}
 .cero{
-    font-size: 100px;
+    font-size: 50px;
 }
 div.hours{
     font-family:sans-serif;
     width: 300px;
-    margin-left: 350px;
+    margin-left: 525px;
     position: absolute;
     border-left: 2px solid gray;
-    height: 250px;
-    margin-top: 150px;
+    height: 140px;
+    margin-top: 250px;
 }
 .hours p.hours{
     text-align: left;
@@ -31,27 +36,28 @@ div.hours{
 .hours p.left{
     margin-left: 20px;
     position: absolute;
-    padding-top: 20px;
+    margin-top: 35px;
+    font-weight: lighter;
 }
 .hours p.cero{
     position: absolute;
-    margin-top: -15px;
+    margin-top: 5px;
     margin-left: 100px;
 }
 div.minutes{
     font-family:sans-serif;
     width: 300px;
-    margin-left: 675px;
+    margin-left: 750px;
     position: absolute;
     border-left: 2px solid gray;
-    border-right: 3px solid gray;
     height: 100px;
-    margin-top: 150px;
+    margin-top: 250px;
 }
 .minutes p.remaining{
     margin-left: 20px;
     position: absolute;
     margin-top: 35px;
+    font-weight: lighter;
 }
 .minutes p.minutes{
     margin-left: 20px;
@@ -61,62 +67,38 @@ div.minutes{
     position: absolute;
     text-align: center;
     margin-left: 110px;
-    margin-top: -15px;
+    margin-top: 5px;
 }
 div.seconds{
     font-family:sans-serif;
     width:300px;
-    margin-left: 1000px;
+    margin-left: 950px;
     position: absolute;
     height: 100px;
-    margin-top: 150px;
+    margin-top: 250px;
+    border-left: 2px solid gray;
 }
 .seconds p.seconds{
     position: absolute;
-    font-size:20px;
-    margin-left: 10px;
+    font-size: 20px;
+    margin-left: 20px;
     margin-top: 15px;
 }
 .seconds p.counting{
-    margin-left: 10px;
+    margin-left: 20px;
     position: absolute;
     margin-top: 40px;
+    font-weight: lighter;
 }
 .seconds p.cero{
     position: absolute;
-    margin-top: -15px;
-    margin-left: 100px;
-}
-.befirst{
-    text-align: right;
-    width: 100%;
-    height: 40px;
-}
-.befirst p{
-    position: absolute;
-    padding-top: 350px;
-}
-
-/*Footer*/
-
-footer{
-    background: #fff;
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    margin-top: 660px
-}
-figure.logo{
-    position: absolute;
-    padding-top: 20px;
-}
-div.contenedor{
-    color: white;
+    margin-top: 10px;
+    margin-left: 110px;
 }
 .boton{
     font-family:sans-serif;
     position: absolute;
-    margin-left: 1200px;
+    margin-left: 1068px;
     margin-top: 350px;
     width: 110px;
     height: 50px;
@@ -130,35 +112,58 @@ div.contenedor{
     color: black;
 }
 .befirst{
+    text-align: right;
+    width: 100%;
+    height: 40px;
     opacity: 0.7;
 }
-p.befirst{
+.befirst p{
     font-family:sans-serif;
     position: absolute;
-    margin-left: 1018px;
+    margin-left: 885px;
+    margin-top: 365px;
     font-size: 14px;
     text-align: center;
     width: 300px;
 }
+
+/*Footer*/
+
+footer{
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    height: 135px;
+    margin-top: 613px
+}
+figure.logo{
+    position: absolute;
+    margin-top: 42px;
+    margin-left: 150px;
+}
+div.contenedor{
+    color: white;
+    height: 50px;
+}
 div.enlaces{
     font-family:sans-serif;
-    margin-left: 38px;
-    margin-top: 60px;
+    margin-left: 150px;
+    margin-top: 75px;
     position: absolute;
 }
 div.home{
     width: 45px;
-    border-right: 2px solid lightgray;
+    border-right: 2px solid rgba(249, 242, 246, 0.85);
 }
 div.theme{
-    border-right: 2px solid lightgray;
+    border-right: 2px solid rgba(249, 242, 246, 0.85);
     width: 101px;
     margin-left: 60px;
     margin-top: -17px;
 
 }
 div.support{
-    border-right: 2px solid lightgray;
+    border-right: 2px solid rgba(249, 242, 246, 0.85);
     width: 48px;
     margin-left: 170px;
     margin-top: -18px;
@@ -168,20 +173,29 @@ div.made{
     margin-left: 230px;
     margin-top: -18px;
 }
+div.copyytexto{
+    position: absolute;
+    width: 525px;
+    margin-left: 800px;
+    margin-top: 25px;
+}
 div.copyright{
+    width: 270px;
     font-family:sans-serif;
     color: darkgray;
-    margin-right: 20px;
     text-align: right;
-    font-size: 12px;
-    padding-top: 5px;
+    margin-left: 230px;
+    font-size: 10px;
+    margin-top: 5px;
 }
 .right{
     font-family:sans-serif;
+    width: 550px;
+    margin-left: -50px;
     text-align: right;
-    font-size: 12px;
-    padding-top: 20px;
-    margin-right: 20px;
+    font-size: 10px;
+    margin-top: 20px;
+    word-spacing: 1px;
 }
 .right span{
     color: darkgray;
